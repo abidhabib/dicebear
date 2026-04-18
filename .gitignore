@@ -9,3 +9,7 @@ node_modules
 
 # Local environment files
 .env*.local
+temp_auto_push.bat
+temp_interactive_push.bat
+branch_structure.json
+config.bat

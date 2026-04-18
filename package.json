@@ -9,7 +9,7 @@
     ]
   },
   "scripts": {
-    "build": "turbo run build",
+    "build": "node init && turbo run build",
     "test": "turbo run test",
     "test:scripts": "node --test 'tests/**/*.test.js'",
     "fixtures:parity": "node tests/fixtures/parity/generate.mjs",
